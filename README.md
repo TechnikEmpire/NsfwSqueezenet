@@ -13,7 +13,7 @@ Took an average of 12.0554347826087 msec per image to classify.
 
 Note that the average execution time above includes JPEG decoding time, as well as network input preprocessing time. This is not a measurement of just the forward pass execution time. Those benchmarks (forward pass only) are well [established](https://github.com/opencv/opencv/wiki/DNN-Efficiency).
 
-This model is sufficient enough for real time video classification on a single core at ~3.5x playback speed (cinema framerate).
+This model is sufficient enough for real time video classification on a single core at ~3.5x playback speed (cinema framerate). In fact you can see a demonstration of just that [here](https://www.youtube.com/watch?v=UAlVOGf9V1s).
 
 ## Todo
 
