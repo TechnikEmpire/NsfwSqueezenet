@@ -11,6 +11,8 @@ Classified non-pornographic images with an accuracy of 98.4782608695652%.
 Took an average of 12.0554347826087 msec per image to classify.
 ```
 
+Note that the average execution time above includes JPEG decoding time, as well as network input preprocessing time. This is not a measurement of just the forward pass execution time. Those benchmarks (forward pass only) are well [established](https://github.com/opencv/opencv/wiki/DNN-Efficiency).
+
 This model is sufficient enough for real time video classification on a single core at ~3.5x playback speed (cinema framerate).
 
 ## Todo
