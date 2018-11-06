@@ -19,7 +19,7 @@ Classifier with type ResNet classified non-pornographic images with an accuracy 
 Classifier with type ResNet has an overall accuracy of 98.7686213725997%.
 ```
 
-This model is sufficient enough for real time video classification on a single core (modern hardware) at ~13.8x normal playback speed (cinema framerate), or ~333FPS. On a less efficient DNN configuration, you can see a demonstration of this [here](https://www.youtube.com/watch?v=UAlVOGf9V1s), but only at ~3.5x normal playback speed. Making this model work at 333Hz on the CPU like I did is an exercise left to the reader.
+This model is sufficient enough for real time video classification (modern hardware) at ~13.8x normal playback speed (cinema framerate), or ~333FPS. On a less efficient DNN configuration, you can see a demonstration of this [here](https://www.youtube.com/watch?v=UAlVOGf9V1s), but only at ~3.5x normal playback speed. Making this model work at 333Hz on the CPU like I did is an exercise left to the reader.
 
 It is my hope that you'll use this model to do something good. The development of this model and things like it takes a heavy toll. I am of the opinion that this particular problem is now conquered and am making this available so neither you or anyone else will have to revisit such work again.
 
