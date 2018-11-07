@@ -5,7 +5,7 @@ The model has a single output, which consists of float values indicating the pro
 
 This project was inspired by [Open NSFW](https://github.com/yahoo/open_nsfw). Open NSFW has excellent accuracy but is computationally expensive. ~~While we don't quite meet the accuracy of OpenNSFW~~... This model is now slightly more accurate than Yahoo's Open NSFW. As a bonus, this model executes ~3x faster. On modern hardware, I can run classification with this model at ~3msec on the CPU, including preprocessing.
 
-On a set of 8000 images (4K per class), the final results for this model vs Yahoo's are:
+On a set of 24,000 images (12K per class), the final results for this model vs Yahoo's are:
 
 ```
 Squeezenet Cutoff = 0.895677871187031
