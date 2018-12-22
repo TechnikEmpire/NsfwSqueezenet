@@ -25,7 +25,7 @@ It is my hope that you'll use this model to do something good. The development o
 
 ## Todo
 
- - ~~Right now this model performs very well with pornographic imagery, but doesn't perform quite as well with plain nudity. The model can benefit from adding plain nudity, devoid of sexual actions, to the training input.~~
+  - Right now this model performs very well with pornographic imagery, but still doesn't perform quite as well with plain nudity or suggestive imagery. The model can benefit from adding plain nudity, devoid of sexual actions, to the training input.
 
 ### Notice  
 Everything except the file `nsfw_squeezenet.caffemodel` is a derivative of [SqueezeNet 1.1](https://github.com/DeepScale/SqueezeNet/tree/master/SqueezeNet_v1.1) and thus is under the original [copyright holder's license](https://github.com/DeepScale/SqueezeNet/blob/master/LICENSE), the BSD 2-clause license.
