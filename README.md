@@ -4,6 +4,8 @@ Caffe Squeezenet model for binary classification of pornographic/non-pornographi
 ## Important Update
 The model herein, especially the accuracies shown, are not accurate. Though I'm not quite sure how, my best guess is that the model is heavily overfit. Since publishing this, I have tested this model against small sets of plain nudity and other pornographic images and the model does extremely poorly. Yahoo NSFW drops compared to the stats below as well, just ot as significantly as this model. Live and learn! Anyway I'm archiving this cause of it. Just be advised.
 
+## Original Readme
+
 The model has a single output, which consists of float values indicating the probability of the input belonging to one of two classes, ranging from 0.0 to 1.0. The first class, 0, is non-pornography, and the second class, 1, is pornography. Therefore, you can simply take the second index of the output (class 1 probability) as your result.
 
 This project was inspired by [Open NSFW](https://github.com/yahoo/open_nsfw). Open NSFW has excellent accuracy but is computationally expensive. ~~While we don't quite meet the accuracy of OpenNSFW~~... This model is now slightly more accurate than Yahoo's Open NSFW. As a bonus, this model executes ~3x faster. On modern hardware, I can run classification with this model at ~3msec on the CPU, including preprocessing.
